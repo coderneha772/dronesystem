@@ -1,0 +1,48 @@
+body{
+	padding: 1em;
+	background-color:red;
+}
+.card {
+	max-width: 30em;
+	display:flex;
+	flex-direction: row;
+	box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
+}
+
+
+
+.carousel-item img{
+	width: 40%;
+	height: 50vh;
+	margin: auto;
+	padding: 0.5em;
+	border-radius: 0.7em;
+}
+.card-body{
+	display: flex;
+	justify-content: space-between;
+}
+.text-section {
+	max-width: 60%;
+	
+}
+.cta-section {
+	max-width: 40%;
+	display: flex;
+	flex-direction:column;
+	align-items: flex-end;
+	
+}
+
+
+.a11{
+	background-color:#fd7e14;
+	margin-left:10px;
+	padding-bottom:10px;
+	border-radius:4px;
+	color:black;
+	padding-top:6px;
+	padding-left:10px;
+	padding-right:10px;
+	border:none;
+}
